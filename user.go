@@ -1,7 +1,8 @@
 package tblBkng
 
 type User struct {
-	ID    int    `json:"id"`
-	Name  string `json:"name"`
-	Phone int    `json:"phone"`
+	ID       int    `json:"id"`
+	UserName string `json:"user_name"`
+	Phone    int    `json:"phone"`
+	Password string `json:"password"`
 }
